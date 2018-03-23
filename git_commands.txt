@@ -1,0 +1,48 @@
+Add one or more files to staging (index):
+git add *
+
+List the files you've changed and those you still need to add or commit:
+git status
+
+Commit changes to head (but not yet to the remote repository)
+git commit -m "Commit message"
+
+Send changes to the master branch of your remote repository:
+git push origin master
+
+Switch from one branch to another:
+git checkout <branchname>
+
+Fetch and merge changes on the remote server to your working directory:
+git pull
+
+Branch Create
+git checkout -b <branch-name>
+git push <remote-name> <branch-name>
+
+Deleting the local branch:
+git branch -D branch_to_be_deleted
+
+Deleting the remote branch:
+git push origin --delete branch_to_be_deleted
+
+JIRA
+NEXUS
+CNFLUENCE/ASAMBLA
+ECLIPSE
+Sonarcube
+
+-vm C:\Program Files (x86)\Java\jre1.8.0_111\bin\javaw.exe
+
+git init                   to inialize .git foolder
+git add <file>             add file to the index
+git status                 check status of working tree
+git commit                 commit chnages in Index
+git push                   push to remote repository
+git pull                   pull the latest from the remote reposityr
+git clone                  clone repository into a new directory
+
+
+
+
+
